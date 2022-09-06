@@ -473,17 +473,6 @@ a {
   background: url("../img/leaf-right-blue.svg") no-repeat center;
 }
 
-.row {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.col-30 {
-  -ms-flex-preferred-size: 30%;
-      flex-basis: 30%;
-}
-
 .header {
   padding-top: 1.875rem;
   padding-bottom: 3.125rem;
@@ -557,6 +546,10 @@ a {
   z-index: 1;
 }
 
+.session {
+  padding-bottom: 9.375rem;
+}
+
 .session .leafs-blue::before {
   margin-right: 13.5rem;
 }
@@ -567,5 +560,75 @@ a {
 
 .session__title {
   margin-bottom: 7.6875rem;
+}
+
+.session-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.session-list__item {
+  position: relative;
+  padding: 12.125rem 2.5rem 1.875rem 2.5rem;
+  background: url("../img/session-img-normal.png") no-repeat;
+  border-radius: 15px;
+  margin-bottom: 1.5rem;
+}
+
+.session-list__item::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(1, 138, 190, 0.5);
+  border-radius: 15px;
+  z-index: 0;
+}
+
+.session-list__item--high {
+  position: relative;
+  padding: 28.5rem 6.75rem 3.125rem 3.125rem;
+  background: url("../img/session-img-high.png") no-repeat;
+}
+
+.session-list__item--high::after {
+  position: absolute;
+  content: '';
+  bottom: 0;
+  right: 0;
+  width: 25.32rem;
+  height: 11px;
+  background: #018ABE;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.session-list__item--wm {
+  margin-bottom: 0;
+}
+
+.session-list__item--wider_text {
+  padding-top: 10rem;
+}
+
+.session-list__desc {
+  font-size: 1.5rem;
+  line-height: 140%;
+  z-index: 1;
+}
+
+.session-list__desc--wide {
+  max-width: 21rem;
+  width: 100%;
 }
 /*# sourceMappingURL=style.css.map */
