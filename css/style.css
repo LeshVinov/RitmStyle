@@ -631,4 +631,353 @@ a {
   max-width: 21rem;
   width: 100%;
 }
+
+.feedback .leafs-blue::before {
+  margin-right: 8.5rem;
+}
+
+.feedback .leafs-blue::after {
+  right: -9rem;
+}
+
+.feedback__title {
+  margin-bottom: 7.6875rem;
+}
+
+.feedback-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 3.75rem;
+}
+
+.feedback-list__item {
+  font-size: 1rem;
+  padding: 3.125rem 3.75rem 3.4375rem;
+  max-width: 39.75rem;
+  width: 100%;
+  height: 21.875rem;
+  background: #018ABE;
+  border-radius: 10px;
+}
+
+.feedback-list__item--unchecked {
+  font-size: 0.725rem;
+  padding: 2.5rem 2.8125rem 4.4375rem 2.8125rem;
+  max-width: 31.25rem;
+  width: 100%;
+  height: 17.25rem;
+  opacity: 0.5;
+}
+
+.feedback-item {
+  font-family: ProximaLight;
+}
+
+.feedback-item__title {
+  font-weight: bold;
+  margin-bottom: 0.9375rem;
+}
+
+.feedback-item__desc {
+  margin-bottom: 1.375rem;
+}
+
+.feedback-item__desc:last-of-type {
+  margin-bottom: 0;
+}
+
+.feedback-slider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.feedback-slider__item {
+  background: #FFFFFF;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 3px;
+  opacity: 0.4;
+  margin-bottom: 9.375rem;
+  margin-right: 1.25rem;
+}
+
+.feedback-slider__item:last-of-type {
+  margin-right: 0;
+}
+
+.feedback-slider__item--checked {
+  opacity: 1;
+}
+
+.about {
+  padding-bottom: 9.375rem;
+}
+
+.about-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 6.25rem;
+}
+
+.about-block:last-of-type {
+  margin-bottom: 0;
+}
+
+.about-block:last-of-type .about-desc__img {
+  width: 480px;
+  height: 340px;
+}
+
+.about-desc {
+  max-width: 29.125rem;
+  width: 100%;
+}
+
+.about-desc__title {
+  font-family: ProximaLight;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-bottom: 1.875rem;
+}
+
+.about-desc__text {
+  font-size: 1rem;
+  margin-bottom: 1.25rem;
+  line-height: 140%;
+  opacity: 0.8;
+}
+
+.about-desc__text:last-of-type {
+  margin-bottom: 0;
+}
+
+.about-desc__img {
+  border-radius: 12px;
+  width: 480px;
+  height: 340px;
+}
+
+.price {
+  padding-bottom: 9.375rem;
+}
+
+.price .leafs-blue::before {
+  margin-right: 15.5rem;
+}
+
+.price .leafs-blue::after {
+  right: -15.5rem;
+}
+
+.price__title {
+  margin-bottom: 6.25rem;
+}
+
+.price-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.price-list {
+  max-width: 26rem;
+  width: 100%;
+}
+
+.price-list__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 1.9375rem;
+}
+
+.price-list__item:last-of-type {
+  margin-bottom: 0;
+}
+
+.price__leaf {
+  margin-right: 1.25rem;
+}
+
+.price__desc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+
+.price__item {
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+.price__cost {
+  font-size: 1.125rem;
+  line-height: 140%;
+}
+
+.price-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.price-img__img {
+  border-radius: 20px;
+  margin-bottom: 1.875rem;
+}
+
+.price-img__text {
+  font-size: 1.3125rem;
+}
+
+.contacts {
+  padding-bottom: 5.625rem;
+}
+
+.contacts-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contacts-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 392px;
+  height: 290px;
+  padding: 2.5875rem 3rem;
+  background: #018ABE;
+  border-radius: 10px;
+  margin-bottom: 1.5rem;
+  margin-left: 2.5rem;
+}
+
+.contacts-info:last-of-type {
+  margin-bottom: 0;
+}
+
+.contacts-info__title {
+  font-size: 24px;
+  line-height: 140%;
+  margin-bottom: 1.25rem;
+}
+
+.contacts-info__desc {
+  position: relative;
+  font-family: ProximaRegular;
+  font-size: 14px;
+  line-height: 135%;
+  margin-bottom: 1.25rem;
+  margin-left: 2.5rem;
+}
+
+.contacts-info__desc:first-of-type {
+  margin-top: 1.875rem;
+}
+
+.contacts-info__desc:first-of-type::before {
+  position: absolute;
+  content: '';
+  background: url("../img/mark.svg");
+  width: 20px;
+  height: 20px;
+  left: -2.5rem;
+  top: -3px;
+}
+
+.contacts-info__desc:nth-of-type(2)::before {
+  position: absolute;
+  content: '';
+  background: url("../img/metro.svg");
+  width: 20px;
+  height: 20px;
+  left: -2.5rem;
+  top: -3px;
+}
+
+.contacts-info__desc:last-of-type {
+  margin-bottom: 1.875rem;
+}
+
+.contacts-info__desc:last-of-type::before {
+  position: absolute;
+  content: '';
+  background: url("../img/card.svg");
+  width: 20px;
+  height: 20px;
+  left: -2.5rem;
+  top: -3px;
+}
+
+.contacts-info__button {
+  max-width: 156px;
+  font-family: ProximaRegular;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.8125rem;
+  padding: 0.5625rem 0.9375rem;
+}
+
+.footer {
+  padding: 30px 0;
+}
+
+.footer .container-normal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
 /*# sourceMappingURL=style.css.map */
